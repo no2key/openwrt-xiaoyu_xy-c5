@@ -10,6 +10,7 @@
 name: Weekly-Build
 
 on:
+  workflow_dispatch:
   push:
     branches: 
       - master
